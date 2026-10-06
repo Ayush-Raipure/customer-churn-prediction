@@ -32,11 +32,10 @@ Customer churn is costly, and keeping an existing customer is usually cheaper th
 - matplotlib / seaborn
 - Jupyter Notebook / Google Colab
 
-## Getting Started
-
 ### Run in Google Colab
 
 Click the **Open in Colab** badge above and run all cells.
+
 
 ### Run locally
 
@@ -54,6 +53,7 @@ jupyter notebook
 
 Then open `customer_churn_prediction.ipynb` and run all cells.
 
+
 ## Models Used
 
 *(Edit this list to match your notebook.)*
@@ -61,6 +61,7 @@ Then open `customer_churn_prediction.ipynb` and run all cells.
 - Logistic Regression
 - Random Forest
 - Decision Tree
+
 
 ## Results
 
@@ -71,6 +72,7 @@ Churn data is usually imbalanced, so look at **recall** and **F1-score** for the
 | Logistic Regression | -        | -         | -      | -        |
 | Random Forest       | -        | -         | -      | -        |
 
+
 ## Possible Improvements
 
 - Handle class imbalance with SMOTE or `class_weight="balanced"`
@@ -79,19 +81,3 @@ Churn data is usually imbalanced, so look at **recall** and **F1-score** for the
 - Try gradient boosting models such as XGBoost or LightGBM
 - Deploy the model as a simple web app (Streamlit or Flask)
 
-## Project Structure
-
-```
-customer-churn-prediction/
-├── customer_churn_prediction.ipynb
-└── README.md
-```
-
-## Author
-
-**Ayush Raipure**
-GitHub: [@Ayush-Raipure](https://github.com/Ayush-Raipure)
-
-## License
-
-This project is open source and available for learning and personal use.
